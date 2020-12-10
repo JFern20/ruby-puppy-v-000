@@ -2,7 +2,7 @@ class Dog
   attr_accessor :name 
 
  @@all = [] 
-#class variable @@all that points to an array
+ #class variable @@all that points to an array
   
  def initialize(name)
     @name = name 
